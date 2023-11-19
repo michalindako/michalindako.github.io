@@ -429,7 +429,7 @@ section .container {
          position: absolute;
          top: 0;
          left: 0;
-         opacity: .7;
+         opacity: .5;
          filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
          width: 100%;
