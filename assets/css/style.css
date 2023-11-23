@@ -376,14 +376,14 @@ section .container {
 }
 
 .pga p {
-  top: 18px;
+  top: 0;
   margin: 15px 0 15px 0;
   font-size: 15px;
   font-weight: 500;
   /*text-transform: ;*/
   color: #fff;
   opacity: .9;
-  line-height: 1.25rem;
+  line-height: 1.30rem;
   letter-spacing: 0.03rem;
   font-family: 'Times New Roman', Times, serif;
 }
