@@ -928,6 +928,107 @@ section .container {
   right: 15px;
 }
 
+/*------------------------------
+-----------
+#Blog section
+------------+
+---------------------------------*/
+ .container{
+		margin-top: 15px;
+	  font-family: "Raleway", sans-serif;
+    /*background:aqua;*/
+    font-weight:bold ;
+    border-radius: 10px;
+    border:1px solid gray ;
+    width: 100%;
+}
+.blog .blog-content h1 {
+    text-align:center ;
+    padding: 17px;
+    margin: 5px;
+}
+
+.blog .blog-content h3{
+				font-weight: bold;
+				font-size: 17px;
+				margin-top: 9px;
+				margin: 5px;
+}
+
+.blog .blog-content h4{
+  font-size: 20px;
+}
+
+.blog p{
+				margin: 2px;
+				font-size: 0.97em;
+				line-height: 21px;
+				color: #fff;
+        font-family: "Raleway", sans-serif;
+}
+.blog .quote1{
+    background:#cecece;
+    border:1px solid black;
+    text-align:center ;
+    margin-top: 5px;
+    padding: 8px;
+    width: 100%;
+}
+.blog h3 span {
+				color: red;
+				font-size: 27px;
+				font-weight: bolder;
+}
+.blog .blog-content .quote1 a{
+  background: none;
+  color: teal;
+  border: 10px;
+}
+@media (max-device-width: 640px) {
+    .blog .container .quote1{
+        background-color: #cecece;
+        width: 400px;
+        height: auto;
+        padding: 10px;
+        color: blue;
+    }
+}
+@media (max-device-width: 480px) {
+  .blog .blog-content .quote1{
+    width: auto;
+    height: auto;
+    color: #fff;
+    padding: 20px;
+  }
+}
+@media (max-width: 1024px){
+  .blog .content .quote1{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 20px;
+    margin-top: 15px; 
+  }
+  
+}
+@media (max-device-width: 1024px) {
+  .blog .blog-content{
+    width: 100%;
+    height: auto;
+  }
+}
+ 
+/* For Tablet View */
+@media (min-device-width: 768px) 
+    and (max-device-width: 1024px) {
+    .blog .container .quote1{
+        width: 650px;
+        height: auto;
+        color: white;
+    }
+	}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
