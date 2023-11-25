@@ -938,8 +938,8 @@ section .container {
 	  font-family: "Raleway", sans-serif;
     /*background:aqua;*/
     font-weight:bold ;
-    border-radius: 10px;
-    border:1px solid gray ;
+    /*border-radius: 10px;
+    border:1px solid gray ;*/
     width: 100%;
 }
 .blog .blog-content h1 {
