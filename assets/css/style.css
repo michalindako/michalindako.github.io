@@ -949,10 +949,10 @@ section .container {
 }
 
 .blog .blog-content h3{
-				font-weight: bold;
-				font-size: 17px;
-				margin-top: 9px;
-				margin: 5px;
+	font-weight: bold;
+	font-size: 17px;
+	margin-top: 9px;
+	margin: 5px;
 }
 
 .blog .blog-content h4{
@@ -960,14 +960,14 @@ section .container {
 }
 
 .blog p{
-				margin: 2px;
-				font-size: 0.97em;
-				line-height: 21px;
-				color: #fff;
+	margin: 2px;
+	font-size: 0.97em;
+	line-height: 21px;
+	color: #fff;
         font-family: "Raleway", sans-serif;
 }
 .blog .quote1{
-    background:#cecece;
+    background: gray;
     border:1px solid black;
     text-align:center ;
     margin-top: 5px;
@@ -975,9 +975,9 @@ section .container {
     width: 100%;
 }
 .blog h3 span {
-				color: red;
-				font-size: 27px;
-				font-weight: bolder;
+	color: red;
+	font-size: 27px;
+	font-weight: bolder;
 }
 .blog .blog-content .quote1 a{
   background: none;
@@ -986,7 +986,7 @@ section .container {
 }
 @media (max-device-width: 640px) {
     .blog .container .quote1{
-        background-color: #cecece;
+        background-color: gray;
         width: 400px;
         height: auto;
         padding: 10px;
