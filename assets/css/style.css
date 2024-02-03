@@ -418,19 +418,19 @@ section .container {
 }
 .img-fluid{
   background-color: black;
-  filter: brightness(100%);
+  filter: brightness(70%);
   border-radius: 12px;
 
 }
 .img-fluid:hover{
-  opacity: .5;
- filter: brightness(150%);
+  opacity: .4;
+ filter: brightness(90%);
 }
 .overlay {
          position: absolute;
          top: 0;
          left: 0;
-         opacity: .5;
+         opacity: .4;
          filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
          width: 100%;
